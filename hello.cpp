@@ -3,5 +3,5 @@
 #include <cstdio>
 using namespace std;
 void print_hello(){
-   printf("Hello World!");
+   cout<<"Hello World!";
 }
