@@ -13,3 +13,14 @@ int gcd(int x,int y){
 
 	return gcd_x_y;
 }
+
+int gcd_rec(int x,int y){
+
+	if(x==0){
+	   return y;
+	}
+
+	return gcd_rec(y % x, x);
+
+}
+
